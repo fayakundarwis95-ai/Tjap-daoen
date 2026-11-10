@@ -1,0 +1,9 @@
+{
+    "jam_senin_jumat_buka": "10.00",
+    "jam_senin_jumat_tutup": "23.00",
+    "jam_sabtu_minggu_buka": "09.00",
+    "jam_sabtu_minggu_tutup": "24.00",
+    "status_buka": true,
+    "alamat": "",
+    "maps_embed": "https:\/\/www.google.com\/maps?q=-7.9266784%2C113.8226576&output=embed"
+}

@@ -1,0 +1,6 @@
+# Tidak boleh menjalankan script di folder upload
+php_flag engine off
+RemoveHandler .php .phtml .php3 .php5
+<FilesMatch "\.(php|phtml|php3|php5|phar)$">
+  Require all denied
+</FilesMatch>

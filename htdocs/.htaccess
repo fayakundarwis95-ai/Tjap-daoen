@@ -1,0 +1,18 @@
+Options -Indexes
+
+# Paksa HTTPS (aktifkan SSL gratis di InfinityFree dulu)
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+# Jangan indeks halaman login/admin
+<IfModule mod_headers.c>
+  <FilesMatch "\.php$">
+    Header set X-Content-Type-Options "nosniff"
+  </FilesMatch>
+</IfModule>
+
+# Blok akses langsung ke file internal
+RewriteRule ^(config|includes)/ - [F,L]
+RewriteRule ^data/.*\.json$ - [F,L]

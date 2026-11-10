@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "icon": "wifi",
+        "nama": "Wi-Fi Cepat & Stabil",
+        "deskripsi": "Mendukung tugas kuliah dan kerja daring",
+        "aktif": true
+    },
+    {
+        "id": 2,
+        "icon": "outlet",
+        "nama": "Stopkontak di Setiap Meja",
+        "deskripsi": "Daya gawai Anda selalu terjaga",
+        "aktif": true
+    },
+    {
+        "id": 3,
+        "icon": "area",
+        "nama": "Area Terbuka & Tertutup",
+        "deskripsi": "Pilihan ruangan ber-AC dan area merokok",
+        "aktif": true
+    },
+    {
+        "id": 4,
+        "icon": "parkir",
+        "nama": "Area Parkir",
+        "deskripsi": "Tempat parkir motor dan mobil teratur",
+        "aktif": true
+    }
+]
